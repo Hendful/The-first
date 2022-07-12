@@ -16,7 +16,7 @@ public class Task2 {
 
         Player.info();                                                   //
         System.out.println(player1.getStamina());                        //
-        for (int i = 0; i < player1.getStamina(); i = 0) {               //
+        for (int i = 0; i < player1.getStamina(); i--) {                 //
             player1.run();                                               //     <<< проверка. По моему всё прекрасно!
         }                                                                //
         System.out.println(player1.getStamina());                        //
